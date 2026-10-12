@@ -1352,7 +1352,7 @@
     {
       "atomType": "Molecule",
       "x": 0.4,
-      "y": 0.6,
+      "y": 0.5,
       "uniqueID": "id-201171",
       "name": "Seat",
       "ioValues": [
@@ -1538,7 +1538,7 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.5,
+      "x": 0.4,
       "y": 0.7,
       "uniqueID": "id-201205",
       "name": "Backrest",
@@ -1916,7 +1916,7 @@
     {
       "atomType": "ExtractTag",
       "x": 0.7,
-      "y": 0.1,
+      "y": 0.6,
       "uniqueID": "id-201275",
       "name": "Extract wood",
       "ioValues": [
@@ -1995,8 +1995,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.9,
-      "y": 0.6,
+      "x": 0.8,
+      "y": 0.8,
       "uniqueID": "id-201281",
       "name": "Cut Layout",
       "ioValues": [
@@ -2065,6 +2065,41 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.9,
+      "y": 0.7,
+      "uniqueID": "id-201563",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "ai_testing",
+          "currentEquation": "ai_testing"
+        }
+      ],
+      "partName": "ai_testing",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -2127,6 +2162,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-201278",
       "ap2ID": "id-201281"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-201281",
+      "ap2ID": "id-201563"
     }
   ],
   "unitsKey": "Inches",
