@@ -59,7 +59,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-200840",
           "name": "BottomDiameter",
           "type": "number",
@@ -155,7 +155,7 @@
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.1,
+                  "y": 0.2,
                   "uniqueID": "id-200860",
                   "name": "Diameter",
                   "type": "number",
@@ -248,7 +248,7 @@
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.1,
+                  "y": 0.2,
                   "uniqueID": "id-200876",
                   "name": "Diameter",
                   "type": "number",
@@ -341,7 +341,7 @@
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.1,
+                  "y": 0.2,
                   "uniqueID": "id-200892",
                   "name": "Diameter",
                   "type": "number",
@@ -407,7 +407,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.1,
+              "y": 0.2,
               "uniqueID": "id-200904",
               "name": "BottomDiameter",
               "type": "number",
@@ -557,7 +557,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.1,
+              "y": 0.2,
               "uniqueID": "id-200929",
               "name": "Profile",
               "type": "geometry",
@@ -665,7 +665,7 @@
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.1,
+                  "y": 0.2,
                   "uniqueID": "id-200948",
                   "name": "Shape",
                   "type": "geometry",
@@ -848,7 +848,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-201076",
           "name": "Panel",
           "type": "geometry",
@@ -1378,7 +1378,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-201175",
           "name": "Envelope",
           "type": "geometry",
@@ -1565,7 +1565,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-201209",
           "name": "Envelope",
           "type": "geometry",
@@ -1752,7 +1752,7 @@
         {
           "atomType": "Input",
           "x": 0,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-201243",
           "name": "Envelope",
           "type": "geometry",
@@ -1883,8 +1883,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7,
-      "y": 0.5,
+      "x": 0.6,
+      "y": 0.3,
       "uniqueID": "id-201267",
       "ioValues": [
         {
@@ -1915,8 +1915,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8,
-      "y": 0.3,
+      "x": 0.7,
+      "y": 0.1,
       "uniqueID": "id-201275",
       "name": "Extract wood",
       "ioValues": [
@@ -1935,7 +1935,7 @@
     {
       "atomType": "CutOrient",
       "x": 0.8,
-      "y": 0.4,
+      "y": 0.5,
       "uniqueID": "id-201278",
       "name": "Cut Orient",
       "ioValues": [
@@ -2006,13 +2006,11 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48,
-          "currentEquation": "48"
+          "ioValue": 48
         },
         {
           "name": "Part Padding",
